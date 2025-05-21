@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(255, 246, 247);
+    font-family: 'Courier New', Courier, monospace ;
+    color: rgb(136, 75, 83);
+}
 h1 {
     text-align: center;
 }
@@ -12,6 +17,9 @@ div {
 .recipe-container {
     display: flex;
     margin: auto;
+    padding: 5px;
+    background-color: rgb(253, 239, 241);
+    border: 1px solid rgb(255, 230, 233);
 }
 .recipe-box {
     box-sizing: border-box;
@@ -19,14 +27,15 @@ div {
     padding: 8px;
     margin: 2px;
     text-align: center;
-    border: 1px dotted grey;
+    background-color: rgb(253, 239, 241);
+    border: 1px solid rgb(248, 216, 220);
     width: 25%
 }
 
 .recipe-text a{
     font-family: 'Courier New', Courier, monospace ;
     font-weight: bold;
-    color: black;
+    color: rgb(136, 75, 83);
 }
 
 .recipe-image {
