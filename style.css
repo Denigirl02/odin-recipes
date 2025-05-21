@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+}
+
+.title-text {
+    text-decoration:underline;
+}
+
+div {
+    
+}
+.recipe-container {
+    display: flex;
+    margin: auto;
+}
+.recipe-box {
+    box-sizing: border-box;
+    display:inline-block;
+    padding: 8px;
+    margin: 2px;
+    text-align: center;
+    border: 1px dotted grey;
+    width: 25%
+}
+
+.recipe-text a{
+    font-family: 'Courier New', Courier, monospace ;
+    font-weight: bold;
+    color: black;
+}
+
+.recipe-image {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
