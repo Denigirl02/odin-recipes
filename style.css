@@ -44,3 +44,15 @@ div {
     margin-left: auto;
     margin-right: auto;
 }
+
+.footer hr{
+    margin-top: 10px;
+    border: .25px solid rgb(248, 216, 220);
+    width: 75%;
+
+}
+
+.footer p {
+    text-align: center;
+    font-size: small;
+}
